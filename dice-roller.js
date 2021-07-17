@@ -19,10 +19,10 @@ const geral = document.getElementsByTagName("body")[0];
 
 function criarBarras() {
     for (let i = 0; i < count.length; i++) {
-    const faceTitle = document.createElement("h4");
+    const faceTitle = document.createElement("h2");
     faceTitle.innerText = `Resultado da soma ${i + 2}`
     const resultText = document.createElement("p");
-    resultText.innerText = `${count[i]}`
+    resultText.innerText = `${count[i]} vezes`
     const criarDiv = document.createElement("div");
     // criarDiv.id = "minhaId";
     criarDiv.style.width = `${count[i]}px`;

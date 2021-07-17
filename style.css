@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body h1 {
+    text-align: center;
+}
+
+body h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+body p {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (min-width: 769px) {
+    body h2 {
+        text-align: justify;
+    }
+    body p {
+        text-align: justify;
+    }
+}
